@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.First_Menu{
+    width: 100%;
+    background-color: #020621;
+    color: white;
+    height: 30px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.First_Menu ul {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.First_Menu ul li{
+    font-size: 15px;
+}
+
+.Second_Menu ul {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    list-style: none;
+    background-color: white;
+    height: 70px;
+    margin-right: 100px;
+}
+
+.Second_Menu ul li{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.First_Menu ul li:nth-child(1) i{
+    color: darkorange;
+}
+
+.First_Menu ul li:nth-child(2) i {
+    color: darkorange;
+}
+
+.First_Menu ul li:nth-child(3) i {
+    color: darkorange;
+}
+
+.First_Menu ul li:nth-child(3){
+    margin-right: 60px;
+}
+
+.Second_Menu ul li i{
+    color: darkorange;
+}
+
+.Second_Menu ul li:nth-child(1){
+   position: absolute;
+   left: 30px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.active{
+    color: darkorange;
+}
+
+.Section_image img{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.About_Us .About h1{
+    margin-left: 40px;
+}
+
+.About_Us{
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.Image_About img{
+    width: 80%;
+    height: 80%;
+    padding-top: 10%;
+}
+
+.About h6{
+    padding-top: 30px;
+    margin-left: 40px;
+    color: darkgray;
+}
+
+.percent{
+    margin-left: 200px;
+}
+
+#secondhr{
+    border: 2px solid darkorange;
+    width: 60%;
+}
+
+
+#sec{
+    border: 2px solid #E1E1E1;
+    width: 10%;
+    position: absolute;
+    left: 250px;
+    margin-top: -4px;
+}
+
+.image_footer img{
+    width: 100%;
+    opacity: 0.8;
+    height: 400px;
+}
+
+.Personal_Traner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ContenuText h1{
+    color: white;
+    text-align: center;
+
+}
+
+.ContenuText{
+    position: absolute;
+    margin-top: -250px;
+    color: white;
+    left:370px ;
+}
+
+.footer_icone i{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 35px;
+    color: darkorange;
+}
+
+
+
+
+
